@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
 import './App.css';
-import { fetchWeather } from './api/fetchApi';
+import fetchWeather from './api/fetchApi';
 
 function App() {
   const [query, setQuery] = useState('');
-  const [weather, setWeather] = useState({})
+  const [weather, setWeather] = useState({});
 
   const search = async (e) => {
     if (e.key === 'Enter') {
@@ -18,8 +18,8 @@ function App() {
 
   return (
     <div className="App">
-      <div classname="input">
-        <input type="text" className="search" placeholder="Search..." className='search' value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search}></input>
+      <div className="input">
+        <input type="text" className="search" placeholder="Search..." value={query} onChange={(e) => setQuery(e.target.value)} onKeyPress={search}></input>
 
       </div>
 
