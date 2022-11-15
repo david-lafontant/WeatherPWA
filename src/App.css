@@ -5,7 +5,6 @@
   text-align: center;
 }
 
-
 .search {
   outline: none;
   padding: 1.5rem 7%;
@@ -27,7 +26,7 @@
   padding: 40px 8%;
   border-radius: 20px;
   background: rgba(250, 250, 250, 0.85);
-  box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+  box-shadow: 10px 10px 5px 0 rgba(15, 15, 15, 0.404);
 }
 
 p {
@@ -50,7 +49,7 @@ p {
 
 .city-name {
   font-size: 2em;
-  width:fit-content;
+  width: fit-content;
 }
 
 .city-name sup {
@@ -72,18 +71,17 @@ p {
   align-items: center;
 }
 
-.black{
+.black {
   color: #000;
 }
 
-.icon-weather{
+.icon-weather {
   border: thin black solid;
   padding: 1.5rem;
   border-radius: 50%;
   background-color: #1e2432;
 }
 
-#description{
+#description {
   font-weight: 500;
 }
-
