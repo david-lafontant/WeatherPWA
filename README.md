@@ -48,6 +48,7 @@ In order to install a local version of this project and please do the following 
   
 - run `npm i` to install all the dependencies required
 - run `npm run dev` to run in the browser
+- Enter the name of a city in the input field and press `Enter`
 
 
 ## Author
