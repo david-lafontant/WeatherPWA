@@ -3,13 +3,13 @@
   "name": "My PWA Weather App",
   "icons": [
     {
-      "src": "./src/assets/images/weather.png",
+      "src": "../src/assets/images/weather.png",
       "type": "image/png",
       "sizes": "1024x1024",
       "purpose": "maskable"
     },
     {
-      "src": "./src/assets/images/weather2.png",
+      "src": "../src/assets/images/weather2.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
