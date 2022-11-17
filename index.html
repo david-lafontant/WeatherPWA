@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/jpg" href="./src/asstets/images/weather.jpg" />
+    <link rel="icon" type="image/png" href="./src/assets/images/weather.png" />
     <meta name="theme-color" content="#213547" , />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Modern PWA Weather React Application" />
-    <link rel="apple-touch-icon" href="./src/asstets/images/weather.jpg" />
+    <link rel="apple-touch-icon" href="./src/assets/images/weather.png" />
     <link rel="manifest" href="./manifest.json" />
     <title>PWA Weather</title>
   </head>
@@ -20,8 +20,6 @@
         window.addEventListener("load", () => {
           navigator.serviceWorker
             .register("serviceworker.js")
-            .then((reg) => console.log("Success: ", reg.scope))
-            .catch((err) => console.log("Failure: ", err));
         });
       }
     </script>
