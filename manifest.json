@@ -1,11 +1,18 @@
 {
   "short_name": "MWA",
   "name": "My PWA Weather App",
-  "icon": [
+  "icons": [
     {
-      "src": "src/assets/images/weather.jpg",
-      "type": "image/jpg",
-      "sizes": "1024x1024"
+      "src": "./src/assets/images/weather.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./src/assets/images/weather2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "start_url": ".",
@@ -13,3 +20,4 @@
   "theme_color": "#213547",
   "background_color": "#ffffff"
 }
+
